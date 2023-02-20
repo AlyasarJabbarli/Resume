@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}   
+.download{
+    background: #52bf00;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: max-content;
+    padding: 2px 7px 2px 15px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.download button{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.dwn-icon{
+    background: white;
+    font-size: 11px;
+    padding: 7px;
+    border-radius: 50px;
+}
+.download:hover{
+    background-color: #71e717;
+}
