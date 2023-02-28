@@ -1,0 +1,10 @@
+.client{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 48px 0px rgb(4 6 4 / 8%);
+    width: 100%;
+    padding: 26px 16px;
+}
+.client img{
+    width: 100%;
+}

@@ -1,50 +1,76 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./style.css";
+import "./responsive.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faHome,
+  faPaperPlane,
+} from "@fortawesome/free-solid-svg-icons";
 import ButtonIcon from "../buttonIcon/ButtonIcon";
+
 const Navbar = () => {
+  const activeLink = "activeLink";
+  const normalLink = "normalLink";
   return (
     <nav>
       <div className="container">
         <div className="nav-all">
-          <div className="left">
-            <ul>
-              <li>
-                <a href="">
-                  <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a href="">RESUME</a>
-              </li>
-              <li>
-                <a href="">PORTFOLIO</a>
-              </li>
-              <li>
-                <a href="">BLOG</a>
-              </li>
-              <li>
-                <a href="">CONTACT</a>
-              </li>
-            </ul>
+          <div className="mobile_nav">
+            <NavLink
+              to="/"
+              className={(isActive) => (isActive ? activeLink : normalLink)}
+            >
+              <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>
+            </NavLink>
+            <div className="hamburger_menu">
+              <FontAwesomeIcon icon={faBars} />
+            </div>
           </div>
-          <div className="right">
-            <ul>
-              <li>
-                <a href="">F</a>
-              </li>
-              <li>
-                <a href="">L</a>
-              </li>
-              <li>
-                <a href="">G</a>
-              </li>
-              <li>
-                <a href="">I</a>
-              </li>
-            </ul>
-            <ButtonIcon text={"Hire Me"} icon={faPaperPlane} />
+          <div className="computer_header">
+            <div className="left">
+              <ul>
+                <li>
+                  <NavLink
+                    to="/"
+                    className={(isActive) =>
+                      isActive ? activeLink : normalLink
+                    }
+                  >
+                    <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/resume">RESUME</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/portfolio">PORTFOLIO</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/RTYFUGIH">BLOG</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contact">CONTACT</NavLink>
+                </li>
+              </ul>
+            </div>
+            <div className="right">
+              <ul>
+                <li>
+                  <Link>F</Link>
+                </li>
+                <li>
+                  <Link>L</Link>
+                </li>
+                <li>
+                  <Link>G</Link>
+                </li>
+                <li>
+                  <Link>I</Link>
+                </li>
+              </ul>
+              <ButtonIcon text={"Hire Me"} icon={faPaperPlane} />
+            </div>
           </div>
         </div>
       </div>

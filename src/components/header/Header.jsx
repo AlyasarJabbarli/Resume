@@ -1,8 +1,8 @@
 import prof from '../../img/profile.jpg'
 import '../header/style.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import ButtonIcon from '../buttonIcon/ButtonIcon'
+import './responsive.css'
 const Header = () => {
     return (
         <header>

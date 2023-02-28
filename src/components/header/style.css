@@ -39,6 +39,7 @@ header{
     box-shadow:  0px 2px 92px 0px rgba(0, 0, 0, 0.162);
     padding-bottom: 30px;
     display: inline-block;
+    height: 700px;
 }
 .info ul{
     list-style: none;

@@ -1,0 +1,26 @@
+.portfolio{
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px 45px;
+    margin-top: 40px;
+}
+.portfolio_navbar{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.portfolio_navbar li{
+    font-size: 14px;
+    color: #787878;
+    cursor: pointer;
+    float: left;
+}
+.portfolio_navbar li .active{
+    color: #52bf00;
+}
+.portfolio_cards{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(222px, 1fr));
+    gap: 30px;
+}

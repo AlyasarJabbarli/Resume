@@ -1,9 +1,13 @@
 .nav-all{
+    height: 100%;
+    width: 100%;
+}
+.computer_header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    width: 100%;
+    width: 100%;  
 }
 nav{
     display: inline-block;
@@ -55,6 +59,15 @@ nav .left ul li:first-child a{
 nav .left ul li:hover a{
     color: #52bf00;
 }
+.activeLink{
+    color: #52bf00;
+}
+.normalLink{
+    color: #fff;
+}
+nav .left ul .active{
+    color: #52bf00;
+}
 nav .right ul li:nth-child(1):hover a{
     color: #3b5998;
     font-size: 14px;
@@ -73,4 +86,22 @@ nav .right ul li:nth-child(4):hover a{
 }
 nav .right ul li a{
     font-size: 11px;
+}
+.mobile_nav{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.mobile_nav a{
+    background-color: #52bf00;
+    color: #fff;
+    border-radius: 6px 0 0 6px;
+    transition: 0.3s;
+    padding: 27px;
+    display: inline-block;
+}
+.hamburger_menu{
+    padding-right: 20px;
+    font-size: 30px;
 }

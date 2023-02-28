@@ -1,0 +1,17 @@
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+}
+h2:after{
+    content: "";
+    background-color: #67d613;
+    display: inline-block;
+    width: 110%;
+    height: 7px;
+    opacity: 0.4;
+    position: absolute;
+    left: -3px;
+    bottom: 0;
+}

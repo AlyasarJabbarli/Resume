@@ -1,0 +1,83 @@
+.historyComp{
+    width: 100%;
+}
+.historyComp ul{
+    margin-left: 20px;
+    padding:0 15px;
+}
+.historyComp ul li h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    line-height: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.historyComp ul li h4{
+    font-size: 16px;
+    line-height: 6px;
+    font-weight: 500;
+}
+.historyComp ul li p:nth-child(2){
+    font-size: 12px;
+    padding: 9px 0;
+}
+.historyComp ul li p:nth-child(3){
+    color: #989898;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 13px;
+}
+.historyComp ul li{
+    border-left: solid 2px #ececec;
+    list-style: none;
+    padding: 0 0 40px 30px;
+    position: relative;
+}
+.historyComp ul li .icon{
+    position: absolute;
+    left: -8.5px;
+    top: 8%;
+    color: white;
+}
+.historyComp ul li:last-child{
+    border-color: white;
+}
+
+.historyComp ul li:before{
+    content: "";
+    border: solid 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    font-size: 8px;
+    margin-left: -35.4px;
+    font-weight: 400;
+    background: #fff;
+    display: block;
+    position: absolute;
+    margin-top: -1px;
+    border-color: #52bf00 
+}
+.historyComp ul li:first-child::before{
+    content: "";
+    border: solid 2px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    font-size: 8px;
+    margin-left: -35px;
+    font-weight: 400;
+    background: #52bf00;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    margin-top: -1px;
+    border-color: #52bf00 
+}

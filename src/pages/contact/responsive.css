@@ -1,0 +1,11 @@
+@media screen and (max-width:768px) {
+    input{
+        width: 100%;
+    }
+    .inputs{
+        flex-wrap: wrap;
+    }
+    .contact_top{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
