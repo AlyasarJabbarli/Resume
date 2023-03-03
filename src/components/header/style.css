@@ -28,10 +28,14 @@ a{
 .profile_photo{
     clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
     width: 100%;
+    height: 300px;
 }
 .profile_photo img{
     vertical-align: middle;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 header{
     width: 275px;

@@ -8,6 +8,7 @@ import Resume from "./pages/resume/Resume";
 import './responsive.css'
 import Portfolio from "./pages/portfolio/Portfolio";
 import Contact from "./pages/contact/Contact";
+import Certification from "./pages/certification/Certification";
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
               <Route path="/" element={<Home />}/>
               <Route path="/resume" element={<Resume />}/>
               <Route path="/portfolio" element={<Portfolio />}/>
+              <Route path="/certifications" element={<Certification />}/>
               <Route path="/contact" element={<Contact />}/>
             </Routes>
           <Footer/>

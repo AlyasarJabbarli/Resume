@@ -16,14 +16,20 @@
 }
 .historyComp ul li h4{
     font-size: 16px;
-    line-height: 6px;
+    line-height: 20px;
     font-weight: 500;
 }
-.historyComp ul li p:nth-child(2){
+.historyComp ul li h5{
+    font-size: 13px;
+    line-height: 6px;
+    padding: 9px 0 3px;
+    font-weight: 400;
+}
+.historyComp ul li p:nth-child(3){
     font-size: 12px;
     padding: 9px 0;
 }
-.historyComp ul li p:nth-child(3){
+.historyComp ul li p:nth-child(4){
     color: #989898;
     font-weight: 400;
     line-height: 18px;
@@ -32,7 +38,7 @@
 .historyComp ul li{
     border-left: solid 2px #ececec;
     list-style: none;
-    padding: 0 0 40px 30px;
+    padding: 0 0 20px 30px;
     position: relative;
 }
 .historyComp ul li .icon{
@@ -59,7 +65,7 @@
     background: #fff;
     display: block;
     position: absolute;
-    margin-top: -1px;
+    margin-top: 1px;
     border-color: #52bf00 
 }
 .historyComp ul li:first-child::before{

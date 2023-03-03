@@ -1,5 +1,4 @@
 import './style.css'
-
 const PortfolioCard = ({work}) => {
     return ( 
         <div className="porfolioCard">

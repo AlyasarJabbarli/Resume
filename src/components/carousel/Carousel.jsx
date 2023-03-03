@@ -16,9 +16,9 @@ function Carousel({testimonals}) {
     const intervalId = setInterval(() => {
       setCurrentIndex(currentIndex => currentIndex > testimonals.length ? 0 : (currentIndex + 1) % testimonals.length);
       setActiveDot(activeDot => activeDot === Math.round(testimonals.length / 3) ? 0 : (currentIndex + 1) % testimonals.length);
-
+      console.log('before');
     }, 4000);
-
+    console.log('after');
     return () => clearInterval(intervalId);
   }, [testimonals.length,currentIndex]);
 

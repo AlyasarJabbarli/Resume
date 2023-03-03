@@ -65,20 +65,16 @@ const Contact = () => {
             <H2heading text={"Contact information"} />
             <ul>
               <li>
-                <strong>Address:</strong> 107727 Santa Monica Boulevard Los
-                Angeles
+                <strong>Address:</strong> 22 Xocalı pr, Baku
               </li>
               <li>
-                <strong>Phone:</strong> +38 012-3456-7890
+                <strong>Phone:</strong> +994 50-866-44-55
               </li>
               <li>
-                <strong>Job:</strong> Freelancer
+                <strong>Job:</strong> Software Engineer | Web Developer
               </li>
               <li>
-                <strong>Email:</strong> henry@domain.com
-              </li>
-              <li>
-                <strong>Skype:</strong> henryrooney85
+                <strong>Email:</strong> alyasar.jabbarli@gmail.com
               </li>
             </ul>
             <ul className="socialLinks">

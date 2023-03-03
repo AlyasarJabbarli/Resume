@@ -5,9 +5,9 @@ import "./responsive.css"
 const Footer = () => {
     return (
         <footer>
-            <h3>Henry Rooney.</h3>
+            <h3>Alyasar Jabbarli.</h3>
             <div className="copyright">
-                <p>© 2017 All rights reserved. Designed by <Link>tavonline</Link></p>
+                <p>© 2023 All rights reserved. Developed by <Link>Me</Link></p>
             </div>
         </footer>
     )

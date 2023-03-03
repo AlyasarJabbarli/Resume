@@ -11,7 +11,10 @@ const History = ({ title, data, icon }) => {
         {data.map((data) => {
           return (
             <li key={data.id}>
-              <h4>{data.position}</h4>
+              <h4>{data.company}</h4>
+              <h5>{
+                data.field === '' ? null : data.field
+                }</h5>
               <p>{data.date}</p>
               <p>{data.mainText}</p>
             </li>

@@ -2,7 +2,7 @@ import H2heading from "../../components/h2heading/H2heading";
 import "./style.css";
 import { connect } from "react-redux";
 import PortfolioCard from "../../components/portfolioCard/PortfolioCard";
-import React, { useState} from "react";
+import React, {useState} from "react";
 
 
 const Portfolio = ({ works }) => {
