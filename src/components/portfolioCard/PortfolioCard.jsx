@@ -1,9 +1,10 @@
 import './style.css'
+
 const PortfolioCard = ({work}) => {
     return ( 
         <div className="porfolioCard">
             <div className="portfolioCard_top">
-                <img src={work.photos[0]} alt="" />
+                <img src={work.photos[0]} alt="" loading='lazy' />
             </div>
             <div className="portfolio_bottom">
                 <span>{work.title}</span>

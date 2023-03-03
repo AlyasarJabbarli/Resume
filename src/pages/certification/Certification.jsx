@@ -2,7 +2,6 @@ import "./style.css";
 import H2heading from "../../components/h2heading/H2heading";
 import PortfolioCard from "../../components/portfolioCard/PortfolioCard";
 import { connect } from "react-redux";
-
 const Certification = ({ certifications }) => {
   console.log(certifications);
   return (

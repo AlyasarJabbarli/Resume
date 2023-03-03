@@ -12,7 +12,7 @@ const Header = () => {
                         <p>Software Engineer | Web Developer</p>
                     </div>
                     <div className="profile_photo">
-                        <img src={prof} alt="" />
+                        <img src={prof} alt="Alyasar Jabbarli" loading='lazy'/>
                     </div>
                     <div className="info">
                         <ul>

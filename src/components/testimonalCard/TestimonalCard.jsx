@@ -5,7 +5,7 @@ const TestimonalCard = ({img, fullName, job, comment}) => {
         <div className="testimonalCard">
             <div className="testimonalCard_top">
                 <div className="testimonalCard_top_left">
-                    <img src={img} alt="" />
+                    <img src={img} alt="" loading='lazy' />
                 </div>
                 <div className="testimonalCard_top_right">
                     <h5>{fullName}</h5>

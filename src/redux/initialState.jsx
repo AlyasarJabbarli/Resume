@@ -66,7 +66,7 @@ export const initialState = {
         field : 'Computer Engineering (In Russian)',
         date: "2020y. - 2021y.",
         mainText:
-          "During my first year of undergraduate studies, I learned about the benefits of the SABAH program and its advantages, as well as the opportunity to study in English. As a result, I began preparing for the SABAH exams and ultimately qualified to study in SABAH Groups."
+          "During my first year of undergraduate studies, I learned about the benefits of the SABAH program and its advantages, as well as the opportunity to study in English."
       },
     ],
   },
