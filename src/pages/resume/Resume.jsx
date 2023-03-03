@@ -11,7 +11,10 @@ const Resume = ({ workingHistory, educationHistory, clients, testimonals }) => {
     <main>
       <div className="resume">
         <div className="history">
+          <div className="title">
           <H2heading text={"Resume"} />
+
+          </div>
           <div className="history-container">
             <History
               title={workingHistory.title}
