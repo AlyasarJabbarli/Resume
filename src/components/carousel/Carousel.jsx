@@ -1,15 +1,17 @@
 import TestimonalCard from "../../components/testimonalCard/TestimonalCard";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import './style.css'
 import './responsive.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { connect } from "react-redux";
 
+
 function Carousel({testimonals}) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [activeDot, setActiveDot] = useState(0);
+  const [isClickAllowed, setIsClickAllowed] = useState(true)
   const step = 3;
 
   useEffect(() => {
@@ -22,15 +24,33 @@ function Carousel({testimonals}) {
     return () => clearInterval(intervalId);
   }, [testimonals.length,currentIndex]);
 
-  const handlePrevClick = () => {
-    setActiveDot(activeDot < 3 ? testimonals.length - 1 : activeDot - 1 * step);
-    setCurrentIndex(currentIndex < 1 ?testimonals.length - 1 : currentIndex - 1);
+  const handleClick = (direction) => {
+    if (isClickAllowed) {
+      setIsClickAllowed(false);
+
+      setTimeout(() => {
+        setIsClickAllowed(true);
+      }, 1500);
+
+      if (direction === "next") {
+        setActiveDot(activeDot >= testimonals.length - step  ? 0 : activeDot + 1 * step);
+        setCurrentIndex(currentIndex >= testimonals.length - 1 ? 0 : currentIndex + 1 );
+      } else {
+        setActiveDot(activeDot < 3 ? testimonals.length - 1 : activeDot - 1 * step);
+        setCurrentIndex(currentIndex < 1 ?testimonals.length - 1 : currentIndex - 1);
+      }
+    }
   };
 
-  const handleNextClick = () => {
-    setActiveDot(activeDot >= testimonals.length - step  ? 0 : activeDot + 1 * step);
-    setCurrentIndex(currentIndex >= testimonals.length - 1 ? 0 : currentIndex + 1 );
-  };
+  // const handlePrevClick = () => {
+  //   setActiveDot(activeDot < 3 ? testimonals.length - 1 : activeDot - 1 * step);
+  //   setCurrentIndex(currentIndex < 1 ?testimonals.length - 1 : currentIndex - 1);
+  // };
+
+  // const handleNextClick = () => {
+  //   setActiveDot(activeDot >= testimonals.length - step  ? 0 : activeDot + 1 * step);
+  //   setCurrentIndex(currentIndex >= testimonals.length - 1 ? 0 : currentIndex + 1 );
+  // };
 
   const handleDotClick = index => {
     setCurrentIndex(index * step);
@@ -52,17 +72,17 @@ function Carousel({testimonals}) {
       </div>
       
       </div>
-      <button className="prev" onClick={handlePrevClick}>
+      <button className="prev" onClick={() => handleClick('prev')}>
           <FontAwesomeIcon icon={faArrowLeft}/>
       </button>
-      <button className="next" onClick={handleNextClick}>
+      <button className="next" onClick={() => handleClick('next')}>
           <FontAwesomeIcon icon={faArrowRight}/>
       </button>
       <div className="dots">
         {testimonals.filter((_, index) => index % step === 0).map((card, index) => (
           <span
             key={card.id}
-            className={`dot ${index % step === 0 ? "active" : ""}`}
+            className={`dot ${index * step === currentIndex || index * step + 1 === currentIndex || index * step + 2 === currentIndex ? "active" : ""}`}
             onClick={() => handleDotClick(index)}
           />
         ))}
