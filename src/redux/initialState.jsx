@@ -6,6 +6,8 @@ import Zakir from '../img/Zakir.jpg'
 import JavaScript_Basic from '../img/JavaScript(Basic).png' 
 import React_Basic from '../img/React(Basic).png' 
 import JavaScript_Intermediate from '../img/JavaScript(Intermediate).png' 
+import Problem_Solving_Basic from '../img/Problem Solving(Basic).png' 
+import SQL_Basic from '../img/SQL Basic.png' 
 
 export const initialState = {
   workingHistory: {
@@ -214,6 +216,18 @@ export const initialState = {
       photos : [React_Basic],
       title : 'React(Basic)',
       comment : '9e9af4b1460d'
+    },
+    {
+      id : 4,
+      photos : [Problem_Solving_Basic],
+      title : 'Problem Solving(Basic)',
+      comment : '1fa3705f9c83'
+    },
+    {
+      id : 5,
+      photos : [SQL_Basic],
+      title : 'SQL(Basic)',
+      comment : 'a64c9afb33f7'
     },
   ]
 };

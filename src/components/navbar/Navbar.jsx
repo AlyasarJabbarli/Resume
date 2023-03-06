@@ -3,15 +3,25 @@ import "./style.css";
 import "./responsive.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBars,
   faHome,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 import ButtonIcon from "../buttonIcon/ButtonIcon";
+import { useState } from "react";
 
 const Navbar = () => {
   const activeLink = "activeLink";
   const normalLink = "normalLink";
+  const[counter, setCounter] = useState(0)
+
+  const handleOnClick = (e) => {
+    console.log(e);
+    if(counter === 0){
+      setCounter(1)
+    }else{
+      setCounter(0)
+    }
+  }
   return (
     <nav>
       <div className="container">
@@ -23,8 +33,10 @@ const Navbar = () => {
             >
               <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>
             </NavLink>
-            <div className="hamburger_menu">
-              <FontAwesomeIcon icon={faBars} />
+            <div className="hamburger_menu" onClick={() => handleOnClick()}>
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
           </div>
           <div className="computer_header">
