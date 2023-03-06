@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className="mobile_nav_bottom" style ={{height:`${height}px`}}>
             <ul>
                 <li>
-                  <NavLink to="/resume">RESUME</NavLink>
+                  <NavLink  to="/resume">RESUME</NavLink>
                 </li>
                 <li>
                   <NavLink to="/portfolio">PORTFOLIO</NavLink>

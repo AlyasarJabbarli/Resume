@@ -64,7 +64,7 @@ nav .left ul li:hover a{
 .normalLink{
     color: #fff;
 }
-nav .left ul .active{
+nav ul .active{
     color: #52bf00;
 }
 nav .right ul li:nth-child(1):hover a{
