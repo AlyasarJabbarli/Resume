@@ -16,7 +16,7 @@ nav{
     box-shadow:  0px 2px 92px 0px rgba(0, 0, 0, 0.162);
     border-radius: 6px;
 }
-nav ul{
+nav .left ul, .right ul{
     display: flex;
     align-items: center;
 }
@@ -86,13 +86,13 @@ nav .right ul li:nth-child(4):hover a{
 nav .right ul li a{
     font-size: 11px;
 }
-.mobile_nav{
+.mobile_nav_top{
     display: none;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-.mobile_nav a{
+.mobile_nav .mobile_nav_top a{
     background-color: #52bf00;
     color: #fff;
     border-radius: 6px 0 0 6px;
@@ -112,4 +112,14 @@ nav .right ul li a{
     background-color: #000;
     width: 35px;
     display: inline-block;
+}
+.mobile_nav{
+    display: none;
+}
+.mobile_nav_bottom ul li{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.038);
+}
+.mobile_nav_bottom{
+    transition: 0.8s;
 }

@@ -18,9 +18,7 @@ function Carousel({testimonals}) {
     const intervalId = setInterval(() => {
       setCurrentIndex(currentIndex => currentIndex > testimonals.length ? 0 : (currentIndex + 1) % testimonals.length);
       setActiveDot(activeDot => activeDot === Math.round(testimonals.length / 3) ? 0 : (currentIndex + 1) % testimonals.length);
-      console.log('before');
     }, 4000);
-    console.log('after');
     return () => clearInterval(intervalId);
   }, [testimonals.length,currentIndex]);
 
@@ -42,26 +40,12 @@ function Carousel({testimonals}) {
     }
   };
 
-  // const handlePrevClick = () => {
-  //   setActiveDot(activeDot < 3 ? testimonals.length - 1 : activeDot - 1 * step);
-  //   setCurrentIndex(currentIndex < 1 ?testimonals.length - 1 : currentIndex - 1);
-  // };
-
-  // const handleNextClick = () => {
-  //   setActiveDot(activeDot >= testimonals.length - step  ? 0 : activeDot + 1 * step);
-  //   setCurrentIndex(currentIndex >= testimonals.length - 1 ? 0 : currentIndex + 1 );
-  // };
-
   const handleDotClick = index => {
     setCurrentIndex(index * step);
     setActiveDot(index);
   };
 
   const translateX = - currentIndex * 273;
-  // console.log(activeDot, currentIndex);
-  
-  // console.log(currentIndex + 1 * 3 , slides.length - 3);
-
   return (
     <div className="carousel">
       <div className="carousel_all">

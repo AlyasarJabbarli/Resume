@@ -1,9 +1,12 @@
 @media screen and (max-width: 767px){
-    .mobile_nav{
+    .mobile_nav_top{
         display: flex;
     }
     .computer_header{
         display: none;
+    }
+    .mobile_nav{
+        display: block;
     }
 }
 @media screen and (min-width: 767px) and (max-width:1024px){
