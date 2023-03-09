@@ -8,6 +8,8 @@ import React_Basic from '../img/React(Basic).png'
 import JavaScript_Intermediate from '../img/JavaScript(Intermediate).png' 
 import Problem_Solving_Basic from '../img/Problem Solving(Basic).png' 
 import SQL_Basic from '../img/SQL Basic.png' 
+import mec from '../img/mec.png'
+import mec2 from '../img/mec2.png'
 
 export const initialState = {
   workingHistory: {
@@ -120,11 +122,12 @@ export const initialState = {
   works : [
     {
       id : 1,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-08.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [mec2 , mec, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Mountain Expeditions Club',
+      comment : 'An expedition club template',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'WebDesign',
+      type : 'Front-End',
+      link : 'https://meclub.netlify.app'
     },
     {
       id : 2,

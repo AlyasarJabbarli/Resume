@@ -67,25 +67,43 @@ nav .left ul li:hover a{
 nav ul .active{
     color: #52bf00;
 }
-nav .right ul li:nth-child(1):hover a{
-    color: #3b5998;
-    font-size: 14px;
-}
-nav .right ul li:nth-child(2):hover a{
-    color: #0072b1;
-    font-size: 14px;
-}
-nav .right ul li:nth-child(3):hover a{
-    color: #171515;
-    font-size: 14px;
-}
-nav .right ul li:nth-child(4):hover a{
-    font-size: 14px;
-    color:  #d62976;
-}
 nav .right ul li a{
     font-size: 11px;
 }
+nav .right ul li svg{
+    width: 12px;
+    height: 12px;
+    font-size:10px;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+nav .right ul li:nth-child(1) svg{
+    width: 8px;
+    height: 12px;
+}
+nav .right ul li:nth-child(1):hover svg{
+    fill: #3b5998;
+    width: 10px;
+    height: 14px;
+}
+nav .right ul li:nth-child(4):hover svg{
+    fill: #0072b1;
+    width: 14px;
+    height: 14px;
+
+}
+nav .right ul li:nth-child(3):hover svg{
+    fill: #171515;
+    width: 14px;
+    height: 14px;
+    
+}
+nav .right ul li:nth-child(2):hover svg{
+    height: 14px;
+    width: 14px;
+    fill:  #d62976;
+}
+
 .mobile_nav_top{
     display: none;
     justify-content: space-between;

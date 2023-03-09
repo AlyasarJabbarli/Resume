@@ -1,5 +1,6 @@
 .porfolioCard{
     width: 100%;
+    height: 100%;
     box-shadow: 0px 0px 48px 0px rgb(4 6 4 / 8%);
     border-radius: 6px;
     transition: 1s;
@@ -17,7 +18,7 @@
 
 
 .portfolioCard_top{
-    height: 80%;
+    height: 70%;
 }
 .portfolioCard_top img{
     width: 100%;
@@ -30,8 +31,9 @@
     padding: 10px;
 }
 .portfolio_bottom h4{
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
+    font-weight: 500;
 }
 .portfolio_bottom p{
     font-size: 13px;
