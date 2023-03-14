@@ -3,6 +3,7 @@ import idris from '../img/idris.jpg'
 import eltun from '../img/Eltun3.jpg' 
 import aziz from '../img/Aziz.jpg' 
 import Zakir from '../img/Zakir.jpg' 
+import UcDavis from '../img/UcDavis.png'
 import JavaScript_Basic from '../img/JavaScript(Basic).png' 
 import React_Basic from '../img/React(Basic).png' 
 import JavaScript_Intermediate from '../img/JavaScript(Intermediate).png' 
@@ -232,5 +233,11 @@ export const initialState = {
       title : 'SQL(Basic)',
       comment : 'a64c9afb33f7'
     },
+    {
+      id : 6,
+      photos : [UcDavis],
+      title : 'SQL for Data Science',
+      comment : 'rjyua9wplu8s'
+    }
   ]
 };
