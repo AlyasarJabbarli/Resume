@@ -11,6 +11,18 @@ import Problem_Solving_Basic from '../img/Problem Solving(Basic).png'
 import SQL_Basic from '../img/SQL Basic.png' 
 import mec from '../img/mec.png'
 import mec2 from '../img/mec2.png'
+import way from '../img/way.png'
+import celtVip from '../img/celtvip.png'
+import prints from '../img/prints.png'
+import celtfairs from '../img/celfairs.png'
+import nevent from '../img/nevent.png'
+import alistud from '../img/alistud.png'
+import celtit from '../img/celtit.png'
+
+
+
+
+
 
 export const initialState = {
   workingHistory: {
@@ -132,74 +144,66 @@ export const initialState = {
     },
     {
       id : 2,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-09.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [way, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Way Az',
+      comment : 'A rent a car template',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
       type : 'Front-End',
+      link : 'https://wayaz.netlify.app'
     },
     {
       id : 3,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-01.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [celtVip, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Celt Vip',
+      comment : 'A crm system.',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'Back-End',
+      type : 'Full-Stack',
+      link : 'https://celt.vip/'
     },
     {
       id : 4,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [prints, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Printly Solutions',
+      comment : 'A print company template.',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
       type : 'Full-Stack',
+      link: 'https://printlysolutions.netlify.app'
     },
     {
       id : 5,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-02.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [celtfairs, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Celt Fairs',
+      comment : 'An educational fair website.',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'Front-End',
+      type : 'Full-Stack',
+      link : 'https://celtfairs.com'
     },
     {
       id : 6,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [nevent, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Next Event',
+      comment : 'An event template.',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'Back-End',
+      type : 'Front-End',
+      link: 'https://nexteventcom.netlify.app'
     },
     {
       id : 7,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-05.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [alistud, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Ali Studio',
+      comment : 'A kids studio crm.',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'Back-End',
+      type : 'Front-End',
+      link: 'https://alistudiox.com'
     },
     {
       id : 8,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-06.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
+      photos : [celtit, 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
+      title : 'Celt IT',
+      comment : 'A course website.',
       description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'Full-Stack',
-    },
-    {
-      id : 9,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-07.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
-      description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
-      type : 'WebDesign',
-    },
-    {
-      id : 10,
-      photos : ['https://html.tavonline.co/mat/default/images/works/work-07.jpg', 'https://html.tavonline.co/mat/default/images/works/work-02.jpg' , 'https://html.tavonline.co/mat/default/images/works/work-03.jpg', 'https://html.tavonline.co/mat/default/images/works/work-04.jpg', 'https://html.tavonline.co/mat/default/images/works/work-05.jpg','https://html.tavonline.co/mat/default/images/works/work-06.jpg' ,'https://html.tavonline.co/mat/default/images/works/work-07.jpg','https://html.tavonline.co/mat/default/images/works/work-08.jpg'],
-      title : 'Babel Admin',
-      comment : 'An admin template design.',
-      description : 'An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.An admin template design.',
+      type : 'Front-End',
+      link: 'https://alistudiox.com'
     },
   ],
   certifications: [
