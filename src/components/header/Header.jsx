@@ -1,4 +1,4 @@
-import prof from '../../img/DSC03797.JPG'
+import prof from '../../img/me.jpg'
 import '../header/style.css'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import ButtonIcon from '../buttonIcon/ButtonIcon'
@@ -18,10 +18,9 @@ const Header = () => {
                         <ul>
                             <li></li>
                             <li><strong>Name:</strong> Alyasar Jabbarli</li>
-                            <li><strong>Birthday:</strong> 01 December 2002</li>
-                            <li><strong>Job:</strong> Instructor</li>
+                            <li><strong>Job:</strong> Front-End Engineer</li>
                             <li><strong>Email:</strong> alyasar.jabbarli@gmail.com</li>
-                            <li><strong>Phone:</strong> +99450-866-44-55</li>
+                            <li><strong>Phone:</strong> +36 70-360-45-22</li>
                         </ul>
                     </div>
                     <ButtonIcon text={'Download Cv'} icon={faDownload}/>

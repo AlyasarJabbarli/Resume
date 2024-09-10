@@ -17,7 +17,7 @@ const Home = () => {
         <div className="about_text">
           <H2heading text={"About Me"} />
           <p>
-          I am a highly skilled web developer, software engineer, and instructor with over 2 years of experience in the tech industry. My expertise lies in building responsive and interactive user interfaces using HTML, CSS, and JavaScript, and I have a deep understanding of popular libraries and frameworks such as React and Angular.
+          I am a highly skilled Front-End engineer, and instructor with over 3 years of experience in the tech industry. My expertise lies in building responsive and interactive user interfaces using HTML, CSS, and JavaScript, and I have a deep understanding of popular libraries and frameworks such as React and Angular.
           </p>
 
           <p>
@@ -73,10 +73,10 @@ const Home = () => {
             <H2heading text={'Back-End Skills'} />
             <ul className='skillList'>
                 <li>
-                    <Progress title={'C# (.NET Framework, .NET Core)'} w={"80%"}/> 
+                    <Progress title={'Php'} w={"80%"}/> 
                 </li>
                 <li>
-                    <Progress title={'ASP.NET MVC, ASP.NET Core MVC'} w={"85%"}/> 
+                    <Progress title={'Laravel'} w={"85%"}/> 
                 </li>
                 <li>
                     <Progress title={'OOP, SQL , MySql'} w={"95%"}/> 

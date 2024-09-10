@@ -32,14 +32,38 @@ export const initialState = {
     works: [
       {
         id: 1,
+        company: "Front-End Engineer",
+        field : 'Pasha Bank OJSC , Baku, Azerbaijan',
+        date: "06/2024 - 09/2024",
+        mainText:
+          "Contributed to the development and optimization of the bank's web applications, focusing on responsive design and performance improvements. Worked closely with cross-functional teams to deliver user-friendly features and maintain code quality."
+      },
+      {
+        id: 2,
+        company: "Front-End Engineer",
+        field : 'Timesoft LLC , Baku, Azerbaijan',
+        date: "02/2024 - 06/2024",
+        mainText:
+          "Developed and maintained web applications using modern JavaScript frameworks. Collaborated with designers and backend developers to create seamless user experiences, ensuring compatibility across multiple devices and browsers."
+      },
+      {
+        id: 3,
         company: "Software Development Instructor",
         field : 'CELT IT Colleges , Baku, Azerbaijan',
         date: "09/2022 - present",
         mainText:
-          "As a software development instructor, I provide individualized instruction to each student, using interactive learning techniques to promote a more engaging and effective learning experience."
+          "Provide hands-on training in front-end development to students, focusing on real-world projects. Tailored learning experiences to individual students' needs, helping them master technologies like HTML, CSS, and JavaScript"
       },
       {
-        id: 2,
+        id: 4,
+        company: "Front-End Developer",
+        field : 'CELT GO, Baku, Azerbaijan',
+        date: "12/2022 - 12/2023",
+        mainText:
+          "Led the front-end development of a major educational platform, implementing responsive designs and enhancing user interfaces. Worked with a team to deliver a seamless and engaging user experience for online learners."
+      },
+      {
+        id: 5,
         company: "Project Manager",
         field : 'GPTS2023, Baku, Azerbaijan',
         date: "08/2022 - 03/2023",
@@ -47,12 +71,12 @@ export const initialState = {
           "I organized a pilot project aimed at young individuals who aspire to become front-end developers. The program was completely free, and we had the privilege of welcoming 25 participants to our project.",
       },
       {
-        id: 3,
+        id: 6,
         company: "Helpdesk intern",
         field : 'Crucel LLC, Baku, Azerbaijan',
         date: "11/2020 - 02/2021",
         mainText:
-          "My first internship was an awesome experience, where I was able to acquire a diverse range of skills related to Information Technology. I am grateful for the opportunity to have learned so much during my time there.",
+          "Gained practical experience in IT support, assisting with troubleshooting, software installations, and hardware maintenance. This internship provided me with a solid foundation in problem-solving and IT infrastructure management.",
       },
     ],
   },
@@ -63,6 +87,14 @@ export const initialState = {
     works: [
       {
         id: 1,
+        company: "Eötvös Lorand University",
+        field : 'Master in Computer Science',
+        date: "2024y. - present",
+        mainText:
+          "Currently pursuing a Master's in Computer Science at Eötvös Lorand University, focusing on advanced topics in software development, algorithms, and system design. The program equips me with a deep understanding of computer science principles and practical experience in developing cutting-edge applications using modern technologies.",
+      },
+      {
+        id: 2,
         company: "CODE Academy",
         field : 'Software Development',
         date: "2022y.",
@@ -70,17 +102,17 @@ export const initialState = {
           "The academy provided me with comprehensive training to become a software developer. During my time there, I gained proficiency in various skills, including C# (.NET).",
       },
       {
-        id: 2,
+        id: 3,
         company: "SABAH Groups",
-        field : 'Computer Engineering (In English)',
-        date: "2021y. - present",
+        field : 'Bachelor in Computer Engineering (In English)',
+        date: "2021y. - 2024y.",
         mainText:
           "During my first year of undergraduate studies, I learned about the benefits of the SABAH program and its advantages, as well as the opportunity to study in English. As a result, I began preparing for the SABAH exams and ultimately qualified to study in SABAH Groups.",
       },
       {
-        id: 3,
+        id: 4,
         company: "Azerbaijan State Oil and Industry University",
-        field : 'Computer Engineering (In Russian)',
+        field : 'Bachelor in Computer Engineering (In Russian)',
         date: "2020y. - 2021y.",
         mainText:
           "During my first year of undergraduate studies, I learned about the benefits of the SABAH program and its advantages, as well as the opportunity to study in English."

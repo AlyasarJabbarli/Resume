@@ -65,13 +65,13 @@ const Contact = () => {
             <H2heading text={"Contact information"} />
             <ul>
               <li>
-                <strong>Address:</strong> 22 Xocalı pr, Baku
+                <strong>Address:</strong> 1037, Kunigunda Utja 35, Budapest
               </li>
               <li>
-                <strong>Phone:</strong> +994 50-866-44-55
+                <strong>Phone:</strong> +36 70-360-45-22
               </li>
               <li>
-                <strong>Job:</strong> Software Engineer | Web Developer
+                <strong>Job:</strong> Front-End Engineer
               </li>
               <li>
                 <strong>Email:</strong> alyasar.jabbarli@gmail.com
@@ -96,7 +96,7 @@ const Contact = () => {
         <div className="contact_bottom">
           <H2heading text={"Contact Map."} />
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6162.700106043214!2d49.87388843461039!3d40.38162781859051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIyJzU0LjYiTiA0OcKwNTInMDUuNCJF!5e0!3m2!1sru!2saz!4v1677572139036!5m2!1sru!2saz"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.759209712504!2d19.031545076811145!3d47.55301499167587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d9728a63c39f%3A0x98f5c6f2defe7ee2!2zTcOhcnRvbiDDgXJvbiBTemFra29sbMOpZ2l1bQ!5e0!3m2!1shu!2shu!4v1725970410622!5m2!1shu!2shu"
             width="100%"
             height="350"
             style={style}

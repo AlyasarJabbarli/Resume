@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
             <h3>Alyasar Jabbarli.</h3>
             <div className="copyright">
-                <p>© 2023 All rights reserved. Developed by <Link>Me</Link></p>
+                <p>© 2024 All rights reserved. Developed by <Link>Me</Link></p>
             </div>
         </footer>
     )
